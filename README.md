@@ -37,7 +37,7 @@ To run this project, you will need to add the following environment variables to
 Clone the project
 
 ```bash
-  git clone https://github.com/2bytecoder/mes-management-system
+  git clone https://github.com/pathak404/mes-management-system
 ```
 
 Go to the project directory
@@ -62,5 +62,5 @@ Start the server
 
 
 ## Related
-[Backend For Mes](https://github.com/2bytecoder/backend-for-mes)
+[Backend For Mes](https://github.com/pathak404/backend-for-mes)
 
