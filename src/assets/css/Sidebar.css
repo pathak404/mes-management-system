@@ -1,0 +1,33 @@
+.sidebar ul.nav {
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  height: calc(100vh - 200px);
+  display: block;
+  mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    black 20px,
+    black 80%,
+    transparent
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    black 20px,
+    black 80%,
+    transparent
+  );
+}
+.sidebar ul.nav::-webkit-scrollbar {
+  display: none;
+}
+.sidebar ul.nav .nav-item {
+  width: 100%;
+  display: block;
+}
+.sidebar ul.nav .nav-item .nav-link:not(.active):hover {
+  background-color: var(--bs-gray-200) !important;
+}

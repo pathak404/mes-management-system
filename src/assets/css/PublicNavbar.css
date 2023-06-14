@@ -1,0 +1,31 @@
+.public-navbar ul.nav {
+  overflow: auto;
+  white-space: nowrap;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+@media (max-width: 992px) {
+  .public-navbar ul.nav {
+    mask-image: linear-gradient(
+      to right,
+      transparent,
+      black 25px,
+      black 90%,
+      transparent
+    );
+    -webkit-mask-image: linear-gradient(
+      to right,
+      transparent,
+      black 25px,
+      black 90%,
+      transparent
+    );
+  }
+}
+.public-navbar ul.nav::-webkit-scrollbar {
+  display: none;
+}
+.public-navbar ul.nav .nav-link.active {
+  background-color: transparent;
+  color: var(--bs-success);
+}

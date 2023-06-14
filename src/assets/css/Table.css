@@ -1,0 +1,9 @@
+.table.clickable tbody tr {
+    cursor: pointer;
+}
+.table tr {
+    height: 60px;
+}
+.table tr:hover {
+    background-color: #fcfcfc;
+}
