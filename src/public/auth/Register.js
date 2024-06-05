@@ -138,7 +138,7 @@ export default function Register(props) {
   return (
     <div className="w-100 min-vh-100 d-flex align-items-center justify-content-center m-auto">
       <div className="w-100 card rounded bg-white border-0 shadow-sm m-3 p-4" style={{ maxWidth: '510px' }}>
-        <img className="mx-auto rounded-1 mb-4 pb-2" src={logo} alt="" width="350" height="72" />
+        <img className="mx-auto rounded-1 mb-4 pb-2 w-100" src={logo} alt="Dayansh Logo" height="85" />
         <form onSubmit={formSumbit}>
           <div className="form-floating mb-3">
             <input type="text" className={`form-control shadow-none is-${inputError.full_name ? 'invalid' : inputError.full_name == null ? '' : 'valid'}`} id="full_name" placeholder='Full Name' value={credentials.full_name} onChange={inputChange} required />
